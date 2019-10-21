@@ -1,4 +1,7 @@
+import { UserActionTypes } from './user.types' 
+
+
 export const setCurrentUser = user => ({
-    type: 'SET_CURRENT_USER',   //This is the reducer types expectation
+    type: UserActionTypes.SET_CURRENT_USER,
     payload: user
-});
+  });
